@@ -1,4 +1,4 @@
-# Android Glisemik Index App
+# Android Glycemic Index App
 
 This application was made for diabetics. The glycemic index value, carbohydrate value and calorie values ​​in foods are kept. It is an application where new foods can be categorized and added if deemed necessary.
 
