@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backimages"
+
+    tools:context=".activitys.FoodDetail">
+
+    <EditText
+        android:id="@+id/dfoodName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="183dp"
+        android:layout_marginEnd="72dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:backgroundTint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/dfoodCarbon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintStart_toStartOf="@+id/dfoodGli"
+        app:layout_constraintTop_toBottomOf="@+id/dfoodGli" />
+
+    <Button
+        android:id="@+id/dfoodUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:backgroundTint="#F3F0ED"
+        android:textColor="#1D7480"
+        android:textStyle="bold"
+        android:onClick="foodUp"
+        android:text="Guncelle"
+        app:layout_constraintEnd_toEndOf="@+id/dfoodCalori"
+        app:layout_constraintTop_toBottomOf="@+id/dfoodCalori" />
+
+    <EditText
+        android:id="@+id/dfoodGli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintStart_toStartOf="@+id/dfoodName"
+        app:layout_constraintTop_toBottomOf="@+id/dfoodName" />
+
+    <EditText
+        android:id="@+id/dfoodCalori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintStart_toStartOf="@+id/dfoodCarbon"
+        app:layout_constraintTop_toBottomOf="@+id/dfoodCarbon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
